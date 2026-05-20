@@ -29,13 +29,13 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.github.libretube"
+        applicationId = "com.auratube.app"
         minSdk = 26
         targetSdk = 36
         versionCode = 68
         versionName = "31.2"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        resValue("string", "app_name", "LibreTube")
+        resValue("string", "app_name", "AuraTube")
     }
 
     ksp {
@@ -72,7 +72,7 @@ android {
         getByName("debug") {
             isDebuggable = true
             applicationIdSuffix = ".debug"
-            resValue("string", "app_name", "LibreTube Debug")
+            resValue("string", "app_name", "AuraTube Debug")
         }
     }
 
@@ -117,7 +117,7 @@ android {
         generateLocaleConfig = true
     }
 
-    namespace = "com.github.libretube"
+    namespace = "com.auratube.app"
 }
 
 dependencies {

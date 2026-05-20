@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.github.libretube.ui.views.CustomSwipeToRefresh
+    <com.auratube.app.ui.views.CustomSwipeToRefresh
         android:id="@+id/refresh"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -129,7 +129,7 @@
                         android:nestedScrollingEnabled="false"
                         android:visibility="gone"
                         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-                        app:spanCount="2" />
+                        app:spanCount="1" />
 
                 </RelativeLayout>
 
@@ -189,7 +189,7 @@
 
         </ScrollView>
 
-    </com.github.libretube.ui.views.CustomSwipeToRefresh>
+    </com.auratube.app.ui.views.CustomSwipeToRefresh>
 
     <LinearLayout
         android:id="@+id/nothing_here"

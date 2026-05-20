@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.github.libretube.baselineprofile"
+    namespace = "com.auratube.app.baselineprofile"
     compileSdk = 36
 
     compileOptions {

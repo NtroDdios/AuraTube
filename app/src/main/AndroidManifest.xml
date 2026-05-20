@@ -20,7 +20,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name=".LibreTubeApp"
+        android:name=".AuraTubeApp"
         android:allowBackup="true"
         android:banner="@mipmap/ic_launcher"
         android:enableOnBackInvokedCallback="true"
@@ -111,13 +111,18 @@
         </activity>
 
         <activity
+            android:name=".ui.activities.SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:screenOrientation="locked" />
+
+        <activity
             android:name=".ui.activities.MainActivity"
             android:configChanges="keyboard|keyboardHidden|screenSize|smallestScreenSize|screenLayout|orientation|uiMode"
             android:exported="true"
             android:launchMode="singleTask"
             android:screenOrientation="locked"
             android:supportsPictureInPicture="true"
-            android:theme="@style/SplashScreenTheme"
+            android:theme="@style/BaseTheme"
             android:windowSoftInputMode="adjustPan">
             <!-- allow being recognized as a music player -->
             <intent-filter>
@@ -134,7 +139,7 @@
             android:icon="@mipmap/ic_launcher"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsPictureInPicture="true"
-            android:targetActivity=".ui.activities.MainActivity"
+            android:targetActivity=".ui.activities.SplashActivity"
             android:theme="@style/SplashScreenTheme"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -153,7 +158,7 @@
             android:icon="@mipmap/ic_gradient"
             android:roundIcon="@mipmap/ic_gradient_round"
             android:supportsPictureInPicture="true"
-            android:targetActivity=".ui.activities.MainActivity"
+            android:targetActivity=".ui.activities.SplashActivity"
             android:theme="@style/SplashScreenTheme"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -173,7 +178,7 @@
             android:icon="@mipmap/ic_launcher_light"
             android:roundIcon="@mipmap/ic_launcher_light_round"
             android:supportsPictureInPicture="true"
-            android:targetActivity=".ui.activities.MainActivity"
+            android:targetActivity=".ui.activities.SplashActivity"
             android:theme="@style/SplashScreenTheme"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -193,7 +198,7 @@
             android:icon="@mipmap/ic_fire"
             android:roundIcon="@mipmap/ic_fire_round"
             android:supportsPictureInPicture="true"
-            android:targetActivity=".ui.activities.MainActivity"
+            android:targetActivity=".ui.activities.SplashActivity"
             android:theme="@style/SplashScreenTheme"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -213,7 +218,7 @@
             android:icon="@mipmap/ic_flame"
             android:roundIcon="@mipmap/ic_flame_round"
             android:supportsPictureInPicture="true"
-            android:targetActivity=".ui.activities.MainActivity"
+            android:targetActivity=".ui.activities.SplashActivity"
             android:theme="@style/SplashScreenTheme"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -233,7 +238,7 @@
             android:icon="@mipmap/ic_shaped"
             android:roundIcon="@mipmap/ic_shaped_round"
             android:supportsPictureInPicture="true"
-            android:targetActivity=".ui.activities.MainActivity"
+            android:targetActivity=".ui.activities.SplashActivity"
             android:theme="@style/SplashScreenTheme"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -251,7 +256,7 @@
             android:icon="@mipmap/ic_torch"
             android:roundIcon="@mipmap/ic_torch_round"
             android:supportsPictureInPicture="true"
-            android:targetActivity=".ui.activities.MainActivity"
+            android:targetActivity=".ui.activities.SplashActivity"
             android:theme="@style/SplashScreenTheme"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -271,7 +276,7 @@
             android:icon="@mipmap/ic_legacy"
             android:roundIcon="@mipmap/ic_legacy_round"
             android:supportsPictureInPicture="true"
-            android:targetActivity=".ui.activities.MainActivity"
+            android:targetActivity=".ui.activities.SplashActivity"
             android:theme="@style/SplashScreenTheme"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -291,7 +296,7 @@
             android:icon="@mipmap/ic_bird"
             android:roundIcon="@mipmap/ic_bird_round"
             android:supportsPictureInPicture="true"
-            android:targetActivity=".ui.activities.MainActivity"
+            android:targetActivity=".ui.activities.SplashActivity"
             android:theme="@style/SplashScreenTheme"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>

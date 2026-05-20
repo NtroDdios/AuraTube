@@ -384,7 +384,7 @@
     <string name="alternative_pip_controls">Alternatyvūs PiP valdymo elementai</string>
     <string name="alternative_pip_controls_summary">PiP režime rodyti tik garso ir peršokimo valdiklius vietoj perėjimo į priekį ir atgal</string>
     <string name="audio_only_mode">Tik garso režimas</string>
-    <string name="audio_only_mode_summary">Paversti „LibreTube“ į muzikos grotuvą</string>
+    <string name="audio_only_mode_summary">Paversti „AuraTube“ į muzikos grotuvą</string>
     <string name="sleep_timer">Miego laikmatis</string>
     <string name="skip_silence">Pereiti prie garso</string>
     <string name="help">Pagalba</string>
@@ -418,7 +418,7 @@
     <string name="creation_date_reversed">Sukūrimo data(atvirkštinė)</string>
     <string name="alphabetic">Abėcėlės tvarka</string>
     <string name="alphabetic_reversed">Abėcėlės tvarka (atvirkštinė)</string>
-    <string name="welcome">Sveiki atvykę į \"LibreTube\"</string>
+    <string name="welcome">Sveiki atvykę į \"AuraTube\"</string>
     <string name="choose_instance">Pasirinkti serverį</string>
     <string name="choose_instance_long">Pasirinkite prisijungimo serverį</string>
     <string name="mark_as_unwatched">Pažymėti kaip neperžiūrėtą</string>
