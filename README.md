@@ -1,181 +1,51 @@
+# 🌌 AuraTube
+
 <div align="center">
-  <img src="assets/banners/gh-banner.png" width="auto" height="auto" alt="AuraTube">
+  <h3>Una experiencia de YouTube ultra-moderna, fluida y privada para Android.</h3>
+  <p>Creado y mantenido por <b>NtroDdios</b></p>
 
-[![GPL-v3](assets/widgets/license-widget.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-</div><div align="center" style="width:100%; display:flex; justify-content:space-between;">
-
-[![Matrix](assets/widgets/mat-widget.svg)](https://matrix.to/#/#AuraTube:matrix.org)
-[![Mastodon](assets/widgets/mast-widget.svg)](https://fosstodon.org/@auratube)
-[![Lemmy](assets/widgets/lemmy-widget.svg)](https://feddit.rocks/c/auratube)
-
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+  [![Platform: Android](https://img.shields.io/badge/Platform-Android-green.svg)](#)
+  [![Design: Material 3 Premium](https://img.shields.io/badge/Design-Material_3_Premium-blueviolet.svg)](#)
 </div>
 
-> **Note** <br>
-> We don't accept feature or bug requests on these platforms. Kindly submit requests only on GitHub.
+---
 
-</div><div align="center" style="width:100%; display:flex; justify-content:space-between;">
+## ✨ Características Premium
 
-[<img src="assets/badges/fdrload.png" alt="Get it on F-Droid" width="30%">](https://f-droid.org/en/packages/com.github.auratube/)
-[<img src="assets/badges/izzyload.png" alt="Get it on IzzyOnDroid" width="30%">](https://apt.izzysoft.de/fdroid/index/apk/com.github.auratube)<br/>
-[<img src="assets/badges/ghload.png" alt="Get it on GitHub" width="30%">](https://github.com/auratube/AuraTube/releases/latest)
+AuraTube no es solo un reproductor alternativo; es una reinvención visual con enfoque absoluto en el diseño moderno, minimalista y de primer nivel:
 
-</div>
+* **🌌 Mini-Reproductor Flotante Moderno:** Rediseñado por completo como una elegante tarjeta flotante $16:9$ en la esquina inferior derecha. Cuenta con bordes redondeados progresivos dinámicos (`16dp` al colapsar) y controles superpuestos circulares semitransparentes (Play/Pausa y Cerrar) que flotan limpiamente sobre el video.
+* **📱 Feed de Video de 1 Sola Columna:** Feed de retratos optimizado para mostrar un único video espectacular por fila en lugar de grids saturados, emulando la fluidez y concentración del reproductor de YouTube oficial premium.
+* **🎨 Estética Material 3 Avanzada:** PURGADO completo de antiguas referencias visuales de LibreTube para dar paso a la identidad premium de **AuraTube** con temas oscuros e iconos del sistema consistentes.
+* **🔒 Privacidad Absoluta por Defecto:** Cero rastreadores de Google, navegación anónima, y evasión automática del perfilamiento de datos comerciales.
+* **🚀 Integraciones de Vanguardia:**
+  * **SponsorBlock:** Omisión automática de segmentos patrocinados y de relleno.
+  * **Return YouTube Dislike:** Visualización exacta del contador de dislikes del video.
+  * **DeArrow:** Títulos y miniaturas comunitarias optimizadas para evitar clickbaits engañosos.
 
-<details>
-  <summary>📜️ Credits</summary>
+---
 
-<sub>Readme Design and Banners by [XelXen](https://github.com/XelXen)</sub> <br>
-<sub>Readme Screenshots by [ARBoyGo](https://github.com/ARBoyGo)</sub> <br>
-<sub>Readme Emoji is from [openmoji](https://openmoji.org)</sub>
+## 📦 Descarga e Instalación
 
-  <summary>Icons</summary>
+Puedes descargar directamente el instalador oficial compilado desde el repositorio principal:
 
-<sub>[Default App Icon](https://github.com/auratube/AuraTube/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png) by [XelXen](https://github.com/XelXen)</sub> <br>
-<sub>[Boosted Bird](https://github.com/auratube/AuraTube/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_bird_round.png) by [Margot Albert-Heuzey](https://margotdesign.ovh)</sub>
+🚀 **[Descargar AuraTube.apk (Instalador Oficial)](AuraTube.apk)**
 
-</details>
+> [!IMPORTANT]
+> **Nota de Instalación:** Si tenías alguna versión previa instalada en tu dispositivo Android, te recomendamos desinstalarla por completo antes de instalar esta versión actualizada para que el sistema de Android limpie correctamente el caché del launcher y aplique el nuevo logotipo "A" de AuraTube en todos tus perfiles.
 
-<h2 align="left">
-<sub>
-<img  src="assets/readme/about.svg"
-      height="30"
-      width="30">
-</sub>
-About
-</h2>
+---
 
-YouTube has an extremely invasive [privacy policy](https://support.google.com/youtube/answer/10364219) which relies on using user data in unethical ways. They store a lot of your personal data - ranging from ideas, music taste, content, political opinions, and much more than you think.
+## 🛠️ Tecnologías y Arquitectura
 
-AuraTube aims at improving the users' privacy by being independent from Google and bypassing their data collection as much as possible. The app only sends the minimum amount of data necessary to ensure that the app works, e.g. it only loads the YouTube-video you want to play without tracking your behavior when using the app.
+* **Kotlin & Java:** Lógica nativa de alto rendimiento bajo las últimas pautas de desarrollo de Android.
+* **MotionLayout & ConstraintLayout:** Transiciones visuales fluidas y animaciones de gestos táctiles premium para el mini-reproductor flotante.
+* **Material Design 3 (M3):** Paleta de colores e interfaces consistentes con el diseño de Android moderno.
+* **ExoPlayer (Media3):** Motor multimedia premium con soporte completo de transmisión adaptativa de video e hilos de audio en segundo plano.
 
-If you have questions or need help, please make sure to read the [FAQ](https://auratube.github.io/#faq) before asking for help at the community channels. The [Matrix room](https://matrix.to/#/#AuraTube:matrix.org) is considered as the main communication channel, all other forums or social media accounts are maintained by volunteers from the community but not the developer(s).
+---
 
-<h2 align="left">
-<sub>
-<img  src="assets/readme/phone.svg"
-      height="30"
-      width="30">
-</sub>
-Screenshots
-</h2>
+## ⚖️ Licencia
 
-<div style="width:100%; display:flex; justify-content:space-between;">
-
-[<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1.jpg" width=19% alt="Home">](fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1.jpg)
-[<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_2.jpg" width=19% alt="Home">](fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_2.jpg)
-[<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_3.jpg" width=19% alt="Subscriptions">](fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_3.jpg)
-[<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_4.jpg" width=19% alt="Library">](fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_4.jpg)
-[<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_9.jpg" width=19% alt="Channel Overview">](fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_9.jpg)
-
-* More screenshots can be found [here](https://github.com/auratube/AuraTube/blob/master/SCREEN_SHOT.md)
-
-</div>
-
-<h2 align="left">
-<sub>
-<img  src="assets/readme/feature.svg"
-      height="30"
-      width="30">
-</sub>
-Features
-</h2>
-
-- [x] No Ads or Tracking
-- [x] Subscriptions
-- [x] Subscription Groups
-- [x] User Playlists
-- [x] Playlist Bookmarks
-- [x] Watch/Search History
-- [x] Downloads
-- [x] Background playback
-- [x] User Accounts via [Piped](https://github.com/TeamPiped/Piped) (optional)
-- [x] [SponsorBlock](https://sponsor.ajay.app/) - skip sponsored segments in videos
-- [x] [ReturnYouTubeDislike](https://www.returnyoutubedislike.com/) - provides video dislike statistics
-- [x] [DeArrow](https://dearrow.ajay.app/) - provides better titles and thumbnails
-
-<h2 align="left">
-<sub>
-<img  src="assets/readme/community.svg"
-      height="30"
-      width="30">
-</sub>
-Contributing
-</h2>
-
-Whether you have ideas, translations, design changes, code cleaning or really heavy code changes, help is always welcome. The more is done, the better it gets! Please respect our [Code of Conduct](https://github.com/auratube/AuraTube/blob/master/CODE_OF_CONDUCT.md) in order to keep all interactions and discussions healthy.
-
-You can open and build the project like any other normal Android project by using Android Studio.
-
-Please make sure the title of your pull request and the commit messages follow the [conventional commit types](https://github.com/commitizen/conventional-commit-types/blob/master/index.json) (e.g. `feat: support for xy`).
-For instance, the most common commit types are "feat", "fix", "refactor", "ci" and "chore".
-
-> [!NOTE]
-> Any issue avoiding the issue template will be ignored and forced to be closed.
-
-> [!NOTE]
-> The usage of AI to generate issue texts or pull requests is not permitted at this repository and thus such issues / pull requests will be ignored.
-
-<h2 align="left">
-<sub>
-<img  src="assets/readme/donate.svg"
-      height="30"
-      width="30">
-</sub>
-Donate
-</h2>
-
-Donations can be made at:
-* <https://github.com/sponsors/Bnyro>
-* <https://liberapay.com/Bnyro>
-* Monero (XMR): 47jAx7jMFo5iqy9VgDH98qL1bSK4kr6Pxi7HKWcRwsxbVYJdjxJtyrwXeAUa5MutvcQUmWMBfvAKnPAutDHvWEymUgLm5v8
-* Ethereum (ETH): 0x599909f54CdC18B997Be8F032341d1Fb14BF4F39
-
-Contributions in any form are welcome!
-
-<h2 align="left">
-📝 Translations
-</h2>
-
-<a href="https://hosted.weblate.org/projects/auratube/#languages">
-<img src="https://hosted.weblate.org/widgets/auratube/-/287x66-grey.png" alt="Translation status" />
-</a>
-
-<h2 align="left">
-<sub>
-<img  src="assets/readme/ltvnp.svg"
-      height="30"
-      width="30">
-</sub>
-Differences to NewPipe
-</h2>
-
-AuraTube's main difference to NewPipe is that it has a much stronger focus on user experience. AuraTube uses the modern [Material 3 Expressive](https://m3.material.io) design, supports external APIs such as SponsorBlock, ReturnYouTubeDislike, or DeArrow, and allows you to synchronize your user data across devices, e.g. via Piped. <!-- TODO: replace with AuraTube sync server -->
-
-While AuraTube only supports content from YouTube, NewPipe also allows the use of other platforms like SoundCloud, PeerTube, Bandcamp and media.ccc.de.
-
-Both, AuraTube and NewPipe, are great clients for watching YouTube videos. There's no general answer about which one is better, just try them both and see which one fits you best.
-
-<h2 align="left">
-<sub>
-<img  src="assets/readme/privacy.svg"
-      height="30"
-      width="30">
-</sub>
-Privacy Policy and Disclaimer
-</h2>
-
-
-AuraTube aims to protect the privacy of its users. [Our Privacy Policy](/PRIVACY_POLICY.md) gives detailed information on which data the app stores in order to work, how it is being used, and how the project protects your personal information. It is recommended to read the privacy policy of AuraTube as well as the privacy policy of the instance you have chosen inside the app.
-
-## License
-[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)
-
-AuraTube is [Free Software](https://en.wikipedia.org/wiki/Free_software): You can use, study, share and modify it at your will. The app can be redistributed and/or modified under the terms of the
-[GNU General Public License version 3 or later](https://www.gnu.org/licenses/gpl.html) published by the 
-[Free Software Foundation](https://www.fsf.org/).
-
-<div align="right">
-<table><td>
-<a href="#start-of-content">↥ Scroll to top</a>
-</td></table>
-</div>
+AuraTube es Software Libre distribuido bajo los términos de la **GNU General Public License v3.0**. Eres libre de usarlo, estudiarlo, modificarlo y compartirlo bajo los términos de esta misma licencia.
